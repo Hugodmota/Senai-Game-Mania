@@ -1,0 +1,321 @@
+/*cabeçalho*/
+
+
+header{
+    height: 170px;
+    background-color: #00127ad7;
+}
+
+header img{
+    height: 150px;
+    width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button{
+    position: relative;
+    top: 50px;
+    left: 1450px;
+}
+
+.button-login {
+      background-color: #0b0ea3; 
+    color: white; 
+    border: 1px solid white;
+    padding: 5px 10px; 
+    border-radius: 5px;
+    cursor: pointer; 
+    float: left;
+    
+  }
+
+.button-cadastrar {
+     background-color: #0b0ea3; 
+    color: white; 
+    border: 1px solid white;
+    padding: 5px 10px; 
+    border-radius: 5px;
+    cursor: pointer; 
+    float: left;
+  }  
+
+ 
+
+/*Corpo*/
+
+
+/*Conteudo principal*/
+
+
+/*banner*/
+#section-banners img{
+     height: 400px;
+}
+
+/*Produtos vendidos*/
+
+#sectiom-vendidos{
+    text-align: center;
+    }
+#section-vendidos h2{
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    margin: 5px;
+    background: #00127ad7;
+    opacity: 0.8;
+    letter-spacing: 30px;
+}
+#section-vendidos img{
+    width: fit-content;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;    
+    height: 300px;
+    border-radius: 10px;
+}
+
+#section-vendidos img:hover {
+    background-color: #3e8e41
+}
+
+
+#section-vendidos .card{
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+#section-vendidos .preco{
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#section-novidades h2{
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    margin: 5px;
+    background: rgba(0, 18, 122, 0.843);
+    opacity: 0.8;
+    letter-spacing: 30px;
+}
+
+#section-novidades img{
+   
+        object-fit: contain;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;    
+        height: 300px;
+        border-radius: 10px;
+}
+
+
+#section-explore h2{
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    margin: 5px;
+    background: #00127ad7;
+    opacity: 0.8;
+    letter-spacing: 30px;
+}
+
+#section-explore img{
+ 
+    object-fit: contain;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;    
+    height: 200px;
+    border-radius: 10px;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+ 
+
+  .container {
+    position: relative;
+    padding: 15px;
+    max-width: 1300px;
+    margin: 0 auto;
+  }
+
+  
+  .container h2{
+    position: relative;
+    margin: 0 auto;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    margin: 5px;
+    background: #00127ad7;
+    opacity: 0.8;
+    letter-spacing: 30px;
+  }
+
+  .gallery-wrapper {
+    overflow-x: auto;
+  }
+  
+  .arrow-left,
+  .arrow-right {
+    position: absolute;
+    top: 24%;
+    left: 0;
+    right: auto;
+    bottom: 1%;
+    font-size: 20px;
+    line-height: 250px;
+    width: 40px;
+    color: #fff;
+    transition: all 600ms ease-in-out;
+    background: linear-gradient(to left, transparent 0%, black 200%);
+    opacity: 0.1;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .arrow-left:hover,
+  .arrow-right:hover {
+    opacity: 1;
+  }
+  
+  .arrow-right {
+    right: 0;
+    left: auto;
+    text-align: right;
+    background: linear-gradient(to right, transparent 0%, black 200%);
+  }
+  
+  .gallery {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 15px;
+  }
+  
+  .item {
+    width: 550px;
+    height: 330px;
+    flex-shrink: 0;
+    transition: all 600ms ease-in-out;
+    opacity: 0.5;
+  }
+  
+  .current-item {
+    opacity: 1;
+  }
+  
+ 
+  .gallery-wrapper::-webkit-scrollbar {
+    display: none;
+  }
+  
+  
+  .gallery-wrapper {
+    -ms-overflow-style: none; 
+    scrollbar-width: none; 
+  }
+  
+ 
+    
+
+
+/*Rodapé*/
+
+
+#foot{
+    margin-top: 5px;
+    font-weight: bolder;
+    color: #ffffff;
+    height: 250px;
+    background-color: #00127acc;
+}
+
+
+
+footer{
+    text-align: center;
+    vertical-align: bottom;
+    color: #ffffff;
+    font-weight: bold;
+    height: 1px;
+}
+
+
+.fa {
+  
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20%;
+  }  
+    .fa:hover {
+    opacity: 0.7;
+  } 
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-instagram {
+    background: #fa4007;
+    color: white;
+  }
+  .fa-rss {
+    background: #ff6600;
+    color: white;
+  }
+
+
+
+
+/*Botão Voltar topo*/
+#voltar-topo{
+    position: fixed;
+    bottom: 5px;
+    right: 50px;
+}
+
+/* página de login  */
+#section-login{
+    margin-top: 100px;
+}
+
+#section-login h1{
+    text-align: center;
+}
+
+#section-login input{
+    width: 100%;
+}
+
+
+/* Formulário de cadastro*/
+
+#section-cadastro {
+        padding: 5px;
+        text-align: center;
+        background-color: #fff;
+}
+#form-cadastrar{
+
+    padding: 50px;
+    display: none;
+}
+
+

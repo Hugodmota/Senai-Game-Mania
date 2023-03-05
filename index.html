@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+  body {
+    background-image: url('img/bg4.jpg');
+   background-repeat: repeat;
+    background-size: 100%;
+    }
+  </style>
+  <title>Game Mania</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+  <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+
+<body>
+   <header>    
+         <nav class="navbar navbar-expand-lg bg-body-tertiary"> 
+          <div class="button">
+            <a href="login.html" class="button-login">Login</a>
+            <a href="login.html" class="button-cadastrar">Cadastrar</a> 
+        </div>
+      <div class="container">
+        <a href="index.html" ><img src="img/logo.png" alt="Game Mania"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" style="color: #ffffff; font-weight: bold;"  href="index.html">Departamentos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color: #ffffff; font-weight: bold;"  href="index.html">Ofertas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color: #ffffff; font-weight: bold;" href="index.html">Lançamentos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color: #ffffff; font-weight: bold;" href="index.html">Monte seu PC</a>
+            </li>      
+          </ul>
+         
+            <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="O que deseja buscar?" aria-label="Search">
+            <button class="btn btn-outline-success" style="color: #ffffff; border-color: #ffffff;" type="submit">Buscar</button>
+          </form>
+          </div>
+       </div>
+      </nav>
+    </header>
+  
+
+  <main>
+    <section id="section-banners" class="container">
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/banner1.PNG" class="d-block w-100" alt="Venha comprar na nossa loja!">
+          </div>
+          <div class="carousel-item">
+            <img src="img/banner2.PNG" class="d-block w-100" alt="Promoções de produtos!">
+          </div>
+          <div class="carousel-item">
+            <img src="img/banner3.PNG" class="d-block w-100" alt="Varias novidades de produtos!">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <section id="section-vendidos" class="container">
+
+      <h2>OS MAIS VENDIDOS</h2>
+      <h5>&nbsp; Os campeões de venda!</h5>
+        <div class="card-group">
+        <div class="card" style="width: 18rem">
+          <img src="img/Dualshock.jpg" class="card-img-top" alt="Dualshock">
+          <div class="card-body">
+            <h5 class="card-title">Controle Dualshock 4 - PlayStation 4 - Preto</h5>
+            <p class="card-text">Top 1 acessorios</p>
+            <p class="preco">R$ 259,00</p>
+
+            <a href="#" class="btn btn-primary">Comprar</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="img/Mouse Death.jpg" class="card-img-top" alt="Último Lançamento">
+          <div class="card-body">
+            <h5 class="card-title">Mouse Gamer Razer Deathadder Essential: 6400 DPI</h5>
+            <p class="card-text">Último lançamento</p>
+            <p class="preco">R$ 199,00</p>
+
+            <a href="#" class="btn btn-primary">Comprar</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="img/SSD.jpg" class="card-img-top" alt="Mais vendido">
+          <div class="card-body">
+            <h5 class="card-title">SSD A400 - Kingston, SA400S37/240G, Preto</h5>
+            <p class="card-text">Mais Vendido</p>
+            <p class="preco">R$ 150,00</p>
+
+            <a href="#" class="btn btn-primary">Comprar</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+
+    <section id="section-novidades" class="container">
+
+      <h2>NOVIDADES</h2>
+      <h5>&nbsp; Produtos recém chegado ao nosso estoque!</h5>
+        <div class="card-group">
+        <div class="card" style="width: 18rem">
+          <img src="img/Cadeira.png" class="card-img-top" alt="Cadeira Gamer">
+          <div class="card-body">
+            <h5 class="card-title">Cadeira gamer - Husky</h5>
+            
+            <a href="#" class="btn btn-primary">Comprar</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="img/GabineteBraco.jpg" class="card-img-top" alt="Gabinte Branco">
+          <div class="card-body">
+            <h5 class="card-title">Gabinete Branco - Corsair</h5>
+   
+            <a href="#" class="btn btn-primary">Comprar</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="img/Teclado02.jpg" class="card-img-top" alt="Teclado Mecânico">
+          <div class="card-body">
+            <h5 class="card-title">Teclado Mecânico</h5>
+
+            <a href="#" class="btn btn-primary">Comprar</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+
+    <section id="section-explore" class="container">
+
+      <h2>EXPLORE</h2>
+      <h5> &nbsp; Descubra mais produtos incríveis!</h5>
+        <div class="card-group">
+        <div class="card" style="width: 8rem">
+          <img src="img/Fonte.jpg" class="card-img-top" alt="Fonte">
+          <div class="card-body">
+            <h5 class="card-title">Fonte Gamer - Corsair</h5>
+            
+            <a href="#" class="btn btn-primary">Comprar</a>
+          </div>
+        </div>
+
+
+        <div class="card" style="width: 8rem;">
+          <img src="img/GabinetePreto.jpg" class="card-img-top" alt="Gabinte Preto">
+          <div class="card-body">
+            <h5 class="card-title">Gabinete Preto - Redragon</h5>
+   
+            <a href="#" class="btn btn-primary">Comprar</a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 8rem;">
+          <img src="img/headset.png" class="card-img-top" alt="headset">
+          <div class="card-body">
+            <h5 class="card-title">Headset Gamer - Havit</h5>
+   
+            <a href="#" class="btn btn-primary">Comprar</a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 8rem;">
+          <img src="img/MOBO.jpg" class="card-img-top" alt="MOBO">
+          <div class="card-body">
+            <h5 class="card-title">MOBO B450M AORUS Elite</h5>
+   
+            <a href="#" class="btn btn-primary">Comprar</a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 8rem;">
+          <img src="img/monitor-gamer-lg-26-ips-ultra-wide-75hz-full-hd-1ms-freesync-premium-hdr-10-99-srgb-hdmi-displayport-vesa-26wq500_1661181623_gg.jpg" class="card-img-top" alt="Monitor">
+          <div class="card-body">
+            <h5 class="card-title">Monitor LG 26" Ultra-Wide</h5>
+   
+            <a href="#" class="btn btn-primary">Comprar</a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 8rem;">
+          <img src="img/Processador.jpg" class="card-img-top" alt="Processador">
+          <div class="card-body">
+            <h5 class="card-title">Processador AMD RYZEN 5 5600G</h5>
+
+            <a href="#" class="btn btn-primary">Comprar</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card-group">
+      <div class="card" style="width: 8rem">
+        <img src="img/RAM.jpg" class="card-img-top" alt="RAM">
+        <div class="card-body">
+          <h5 class="card-title">Memória RAM DD4 16gb</h5>
+          
+          <a href="#" class="btn btn-primary">Comprar</a>
+        </div>
+      </div>
+
+
+      <div class="card" style="width: 8rem;">
+        <img src="img/Teclado01.jpg" class="card-img-top" alt="Teclado Mecânico">
+        <div class="card-body">
+          <h5 class="card-title">Teclado Semi Mecânico - HyperX</h5>
+ 
+          <a href="#" class="btn btn-primary">Comprar</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 8rem;">
+        <img src="img/VGA.jpg" class="card-img-top" alt="VGA">
+        <div class="card-body">
+          <h5 class="card-title">GeForce RTX 3060 MSI</h5>
+ 
+          <a href="#" class="btn btn-primary">Comprar</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 8rem;">
+        <img src="img/Mouse Viper.jpg" class="card-img-top" alt="Mouse">
+        <div class="card-body">
+          <h5 class="card-title">Mouse Razer Viper PRO</h5>
+ 
+          <a href="#" class="btn btn-primary">Comprar</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 8rem;">
+        <img src="img/SSD.jpg" class="card-img-top" alt="SSD">
+        <div class="card-body">
+          <h5 class="card-title">SSD A400 - Kingston</h5>
+ 
+          <a href="#" class="btn btn-primary">Comprar</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 8rem;">
+        <img src="img/Teclado02.jpg" class="card-img-top" alt="Teclado Mecânico">
+        <div class="card-body">
+          <h5 class="card-title">Teclado Mecânico XPG</h5>
+
+          <a href="#" class="btn btn-primary">Comprar</a>
+        </div>
+      </div>
+    </div>
+  </div>
+    </section>
+
+    
+    <div class="container">
+      <h2>GALERIA</h2>
+      <h5> &nbsp; Satisfação garantida!</h5>
+          <button class="arrow-left control" aria-label="Previous image">◀</button>
+      <button class="arrow-right control" aria-label="Next Image">▶</button>
+      <div class="gallery-wrapper">
+        <div class="gallery">
+          <img src="img/Galeria05.jpg" alt="Galeria1" class="item current-item">
+          <img src="img/Galeria03.png" alt="Galeria2" class="item current-item">
+          <img src="img/Galeria01.png" alt="Galeria3" class="item current-item">
+          <img src="img/Galeria02.jpg" alt="Galeria4" class="item current-item">
+          <img src="img/Galeria04.png" alt="Galeria5" class="item current-item">
+        </div>
+      </div>
+    </div>
+      
+  </main>
+         
+    <section id="foot">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm">
+            <h5>Institucional</h5>
+            <ul>
+              <li><a style="color: white;" href="index.html">Quem somos</a></li>
+              <li><a style="color: white;" href="index.html">Localização</a></li>
+              <li><a style="color: white;" href="index.html">Nossas Lojas</a></li>
+          </ul>
+          </div>
+          <div class="col-sm">
+            <h5 href="">Dúvidas</h5>
+            <ul>
+              <li><a style="color: white;" href="index.html">Entrega</a></li>
+              <li><a style="color: white;" href="index.html">Garantia</a></li>
+              <li><a style="color: white;" href="index.html">Como comprar</a></li>
+              <li><a style="color: white;" href="index.html">Formas de Pagamento</a></li>
+              <li><a style="color: white;" href="index.html" target="_blank">Sobre Boletos</a></li>
+          </ul>
+          </div>
+          <div class="col-sm">
+            <h5>Ajuda</h5>
+            <ul>
+              <li><a style="color: white;" href="index.html">SAC</a></li>
+              <li><a style="color: white;" href="index.html">Fale conosco</a></li>
+              <li><a style="color: white;" href="index.html">Termos de aceite</a></li>
+              <li><a style="color: white;" href="index.html">Políticas de Privacidade</a></li></ul>
+          </div>
+        </div>
+          <h5>Nossas redes</h5>
+              <a href="#" class="fa fa-facebook"></a>
+              <a href="#" class="fa fa-twitter"></a>
+              <a href="#" class="fa fa-instagram"></a>
+              <a href="#" class="fa fa-rss"></a>
+      </div>       
+    </section>
+  
+
+  <footer>
+    <div class="text-botton" style="background-color: #00127acc;">
+      © 2023 Todos os direitos reservados. Desenvolvido por Hugo Mota.
+    </div>
+  </footer>
+
+  <button id="voltar-topo" type="button" class="btn btn-outline-primary" style="background-color: white;" onclick="topo()">&uarr; Voltar ao topo</button>
+
+  <script src="js/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
